@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image2.png">
+</head>
+<body style="background-image: url(images\ \(16\).jpeg);">
+    <div class="container">
+        <div class="header">
+            <img src="image2.png" height="200px" width="200px" alt="">
+            <h1>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;   IT Skill DEV Institute</h1>
+            
+          </div>
+        <h1>Test No 1</h1>
+        <p style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;font-weight: bold;">Microsoft Excel</p>
+        <div class="name-section">
+            <label for="studentName"><span style="color: rgb(19, 94, 9); font-weight: bolder;">Enter your name:</span></label>
+            <input type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>1. What is the default file extension of an Excel 365/2019 workbook?
+</p>
+            <div><input type="checkbox" id="artificialIntelligence" value="Artificial intelligence">
+            <label for="artificialIntelligence">.xlsx</label></div>
+           <div>  <input type="checkbox" id="artificialIntelligence" value="Articial intelligence">
+            <label for="artificialIntelligence">.xls</label></div>
+            
+           
+        </div>
+        
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>Which function returns the current date?</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="Agriculture">DATE()</option>
+                <option value="Medical">NOW()</option>
+                <option value="Weather forecast">TIME()</option>
+                <option value="Both a,b & c">TODAY()</option>
+            </select>
+        </div>
+          <!-- Question 3 (Dropdown) -->
+        <!-- Question 1 (Multiple Choice) -->
+<div class="question">
+    <p>3. What does the function =SUM(A1:A5) do?</p>
+    <div><input type="radio" id="computerVision" name="workloadAI" value="Computer Vision">
+    <label for="computerVision">Counts cells</label>
+    </div>
+   <div> <input type="radio" id="machineLearning" name="workloadAI" value="Machine Learning">
+    <label for="machineLearning">Averages values</label>
+    </div>
+   <div> <input type="radio" id="regression" name="workloadAI" value="Regression">
+    <label for="regression">Adds all values in cells A1 to A5</label></div>
+</div>
+
+ <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>4. Which function is used to find the largest number in a range?</p>
+   <div> <input type="radio" id="label" name="train" value="label">
+    <label for="label">MAX()</label>
+    </div>
+   <div> <input type="radio" id="feature" name="train" value="feature">
+    <label for="feature">LARGE()</label>
+    </div>
+   <div> <input type="radio" id="dataset" name="train" value="dataset">
+    <label for="dataset">TOP()</label></div>
+</div>
+
+<div class="question">
+    <p>5. What is the use of VLOOKUP()?
+</p>
+    <select id="question5">
+        <option value="">--Select an answer--</option>
+        <option value="Regression">Verifies data</option>
+        
+        <option value="Binary Classification">Looks for a value vertically in a column</option>
+        
+        <option value="Both a,b & c">Filters data</option>
+    </select>
+</div>
+
+
+<div class="question">
+    <p>6. What is the use of the FILTER() function?
+ </p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="feature">Sorts data</option>
+        
+        <option value="label">Filters rows based on condition</option>
+         <option value="labl">Replaces values</option>
+    </select>
+</div>
+<div class="question">
+    <p>7. Which function is used to get the middle character(s) of a string? </p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="feature">MID()</option>
+         <option value="label">LEFT()</option>
+        <option value="lael">RIGHT()</option>
+              <option value="labl">CENTER()</option>
+    </select>
+</div>
+<div class="question">
+    <p>8. How can you start a formula in Excel? </p>
+    <input type="radio" id="artificiallife" name="AI" value="artificiallife">
+    <label for="artificiallife">=</label>
+    <input type="radio" id="huan" name="AI" value="huan">
+    <label for="huan">@</label>
+    <input type="radio" id="human" name="AI" value="human">
+    <label for="human">!</label>
+    
+    
+</div>
+<div class="question">
+    <p>9. Which of the following is a valid cell range?</p>
+    <input type="radio" id="stylar" name="images" value="stylar">
+    <label for="stylar">A1-5</label>
+     <input type="radio" id="levenlas" name="images" value="levenlas">
+    <label for="levenlas">A1:A5</label>
+    <input type="radio" id="Elevenlabs" name="images" value="Elvenlabs">
+    <label for="Elevenlabs">1:A5</label>
+    
+    
+</div>
+<div class="question">
+    <p>10. Which of the following is NOT a valid Excel function?</p>
+
+    <div>
+        <input type="radio" id="stylr" name="image" value="stylr"> 
+        <label for="stylr">AVERAGE</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elevenls" name="image" value="Elvenls">
+        <label for="Elevenls">SUM</label>
+    </div>
+
+    <div>
+        <input type="radio" id="sty" name="image" value="sty">
+        <label for="sty">Total</label>
+    </div>
+</div>
+
+<div class="question">
+    <p>11. What does the IF() function return?</p>
+
+    <div>
+        <input type="radio" id="styl" name="im" value="styl"> 
+        <label for="styl">A string</label>
+    </div>
+
+    <div>
+        <input type="radio" id="Elevels" name="im" value="Elvels">
+        <label for="Elevels">A logical TRUE or FALSE</label>
+    </div>
+
+    <div>
+        <input type="radio" id="stiy" name="im" value="stiy">
+        <label for="stiy">A value based on condition</label>
+    </div>
+</div>
+<br><br>
+
+        
+        <button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
